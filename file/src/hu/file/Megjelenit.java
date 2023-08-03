@@ -18,7 +18,7 @@ public void setBeolvas(Beolvas beolvas) {
 
 public void visszafeleKiir() {
 	for(int i = beolvas.getTombmeret()-1; i >= 0; i--) {
-		System.out.print(beolvas.getTombmeret());
+		System.out.print(beolvas.getSzetszed()[i]);
 	}
 }
 
