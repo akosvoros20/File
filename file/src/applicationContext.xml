@@ -9,11 +9,13 @@
 <bean id="kiir" class="hu.file.Kiir">
 <property name="beker" value="probaszoveg"></property>
 </bean>  
-<bean id="megjelenit" class="hu.file.Megjelenit">
-<property name="megjelenites" value="szoveg"></property>
-</bean>  
+ 
 <bean id="beolvas" class="hu.file.Beolvas">
 <property name="beolvas" value="szoveg"></property>
 </bean>  
+
+<bean id="megjelenit" class="hu.file.Megjelenit">
+        <constructor-arg ref="beolvas"/>
+    </bean>
   
 </beans>

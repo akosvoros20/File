@@ -30,7 +30,7 @@ public class Kiir {
 			      System.out.println("A fájlba írás nem sikerült");
 			      e.printStackTrace();
 			    }
-		
+		sc.close();
 	}
 	
 

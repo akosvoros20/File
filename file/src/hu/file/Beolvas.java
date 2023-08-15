@@ -30,7 +30,6 @@ public class Beolvas {
 		szetszed = new char[beolvas.length()];
 		for(int i = 0; i<beolvas.length(); i++) {
 			szetszed[i] = beolvas.charAt(i);
-			System.out.println(szetszed[i]);
 			tombmeret++;
 		}	
 	}
@@ -49,6 +48,14 @@ public class Beolvas {
 
 	public void setSzetszed(char[] szetszed) {
 		this.szetszed = szetszed;
+	}
+
+	public String getBeolvas() {
+		return beolvas;
+	}
+
+	public void setBeolvas(String beolvas) {
+		this.beolvas = beolvas;
 	}
 	
 }

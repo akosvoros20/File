@@ -15,13 +15,12 @@ public class Fut {
 		Kiir szoveg=(Kiir)factory.getBean("kiir");
 		szoveg.adatbeker();
 		
-/*		Beolvas beolvas=(Beolvas)factory.getBean("beolvas");
+		Beolvas beolvas=(Beolvas)factory.getBean("beolvas");
 		beolvas.beolvasas();
 		beolvas.tombbe();
-		
-		Megjelenit megjelenit=(Megjelenit)factory.getBean("megjelnit");
-		megjelenit.visszafeleKiir();
-*/		
+	
+		Megjelenit megjelenit=(Megjelenit)factory.getBean("megjelenit");
+		megjelenit.visszafeleKiir();	
 		
 
 	}

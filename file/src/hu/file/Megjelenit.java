@@ -22,5 +22,9 @@ public void visszafeleKiir() {
 	}
 }
 
+public Megjelenit() {
+	
+}
+
 
 }
